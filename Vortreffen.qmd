@@ -42,25 +42,21 @@ DIW Berlin \| Humboldt Universität zu Berlin \| Universität Hamburg \| Friedri
 
 ## Seminarablauf
 
-<br>
-<br>
+<br> <br>
 
 ::: {.column width="65%"}
-
-| Datum | Uhrzeit | Thema | 
-|---------|:-----|------:|
-| 27. September 2024  | 09:30 - 10:00 Uhr  | Vorbesprechung |
-| 18. Oktober 2024    | 08:00 - 12:15 Uhr  | Termin 1 |
-| 22. November 2024   | 08:00 - 12:15 Uhr  | Termin 2 |
-| 10. Januar 2025     | 08:00 - 12:15 Uhr  | Termin 3 |
-| 17. Januar 2025     | 08:00 - 12:15 Uhr  | Termin 4 |
+| Datum               | Uhrzeit           |          Thema |
+|---------------------|:------------------|---------------:|
+| 27\. September 2024 | 09:30 - 10:00 Uhr | Vorbesprechung |
+| 18\. Oktober 2024   | 08:00 - 12:15 Uhr |       Termin 1 |
+| 22\. November 2024  | 08:00 - 12:15 Uhr |       Termin 2 |
+| 10\. Januar 2025    | 08:00 - 12:15 Uhr |       Termin 3 |
+| 17\. Januar 2025    | 08:00 - 12:15 Uhr |       Termin 4 |
 
 <br>
-
 :::
 
 Alle Termine finden online via Zoom statt. Der Link wird rechtzeitig vor dem jeweiligen Termin bereitgestellt.
-
 
 ## Ihre Umgebung auf Ihrem eigenen Laptop
 
@@ -94,9 +90,8 @@ Alle Termine finden online via Zoom statt. Der Link wird rechtzeitig vor dem jew
 -   Mit R-Studio steht eine sehr benutzerfreundliche und ebenfalls unter einer Open-Source Lizenz stehende IDE zur Verfügung.
 
 ## Liste der verwendeten Pakete
-<br>
-<br>
-<br>
+
+<br> <br> <br>
 
 ::: {.column width="50%"}
 ```{r}
@@ -141,6 +136,7 @@ install.packages("lubridate")
 :::
 
 ## (Vorläufige) Agenda
+
 <br>
 
 1.  **Einführung in R und RStudio:** Überblick über die Installations- und Einrichtungsprozesse \| Grundlegende Funktionen und Bedienung von R und RStudio
@@ -150,7 +146,8 @@ install.packages("lubridate")
 5.  **Deskriptive Statistik in R:** Berechnung und Interpretation grundlegender statistischer Kennzahlen \| Anwendung von deskriptiven Methoden zur Datenexploration \| Einführung in die statistische Modellierung am Beispiel linearer Modelle
 6.  **Datenvisualisierung in R:** Erstellen von publikationsreifen Grafiken und Diagrammen mit ggplot2 \| Gestaltung und Interpretation von Datenvisualisierungen zur Unterstützung der Datenanalyse
 
-##  
+## 
+
 <br>
 
 <br>
@@ -160,4 +157,3 @@ install.packages("lubridate")
 <br>
 
 **Welche Themen interessieren Sie noch?**
-
