@@ -393,7 +393,7 @@
 
 <section id="title-slide" data-background-color="#2A4D69" data-background-image="./images/logo.png" data-background-position="center right 20px" data-background-size="30%" class="quarto-title-block center">
   <h1 class="title">Vortreffen am 27.09.2024</h1>
-  <p class="subtitle">Grundlagen der Datenanalyse und Statistik in R | WS 2024/25</p>
+  <p class="subtitle">Grundlagen der Datenanalyse und Statistik mit R | WS 2024/25</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -412,12 +412,12 @@ Prof.&nbsp;Dr.&nbsp;Daniel Schnitzlein
 <ul>
 <li>Gründer und Geschäftsführer von Innside Statistics <a href="https://innside-statistics.de" class="uri">https://innside-statistics.de</a></li>
 <li>außerplanmäßiger Professor für Volkswirtschaftslehre an der Leibniz Universität Hannover</li>
-<li>PI im DFG-Projekt InterVerm</li>
+<li>Principle Investigator im DFG-Projekt InterVerm</li>
 </ul>
 </div><div class="column" style="width:10%;">
 
 </div><div class="column" style="width:40%;">
-<p><img data-src="./images/Prof_1.png" style="width:75.0%"></p>
+<p><img data-src="./images/Prof_1.png" style="width:70.0%"></p>
 </div><p><strong>Bisherige berufliche Stationen</strong></p>
 <p>DIW Berlin | Humboldt Universität zu Berlin | Universität Hamburg | Friedrich-Alexander-Universität Erlangen-Nürnberg | Institut für Arbeitsmarkt- und Berufsforschung</p>
 </section>
@@ -450,53 +450,65 @@ Prof.&nbsp;Dr.&nbsp;Daniel Schnitzlein
 <td style="text-align: right;">Termin 2</td>
 </tr>
 <tr class="even">
-<td>10. Januar 2025</td>
+<td>06. Dezember 2024</td>
 <td style="text-align: left;">08:00 - 12:15 Uhr</td>
 <td style="text-align: right;">Termin 3</td>
 </tr>
 <tr class="odd">
-<td>17. Januar 2025</td>
+<td>10. Januar 2025</td>
 <td style="text-align: left;">08:00 - 12:15 Uhr</td>
 <td style="text-align: right;">Termin 4</td>
+</tr>
+<tr class="even">
+<td>17. Januar 2025</td>
+<td style="text-align: left;">08:00 - 10:00 Uhr (?)</td>
+<td style="text-align: right;">Termin 5</td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
-</div><p>Alle Termine finden online via Zoom statt. Der Link wird rechtzeitig vor dem jeweiligen Termin bereitgestellt.</p>
+</div><p>Alle Termine finden online via Zoom statt. Der Link wird rechtzeitig vor dem jeweiligen Termin bereitgestellt. Nach jedem Termin wird es ein Problem Set geben, das bis zum nächsten Termin bearbeitet werden sollte.</p>
 </section>
 <section id="ihre-umgebung-auf-ihrem-eigenen-laptop" class="slide level2">
 <h2>Ihre Umgebung auf Ihrem eigenen Laptop</h2>
 <p><br></p>
+<div>
 <ul>
-<li>R und R-Studio werden beide unter Open-Source-Lizenzen vertrieben und sind für alle gängigen Betriebssysteme verfügbar. Das heißt, Sie können beides herunterladen und auf Ihrem eigenen Computer installieren.</li>
-<li>Auch alle Datensätze, die wir in dieser Veranstaltung verwenden werden, können Sie auf Ihrem eigenen Computer nutzen und ich werde Ihnen entweder die Download-Links zur Verfügung stellen oder die Daten direkt über Github bereitstellen. Den Link zum Repository erhalten Sie jeweils vor dem relevanten Kurstermin.</li>
-<li>Das bedeutet, Sie können alle Übungen und Anwendungen mit Ihrem eigenen Gerät bearbeiten und wir müssen nicht auf die Computerräume der Universität zurückgreifen.</li>
-<li>Bitte bringen Sie Ihren Computer mit einer laufenden Installation von R und R-Studio zu den Veranstaltungsterminen mit.</li>
+<li class="fragment">R und R-Studio werden beide unter Open-Source-Lizenzen vertrieben und sind für alle gängigen Betriebssysteme verfügbar. Das heißt, Sie können beides herunterladen und auf Ihrem eigenen Computer installieren.</li>
+<li class="fragment">Auch alle Datensätze, die wir in dieser Veranstaltung verwenden werden, können Sie auf Ihrem eigenen Computer nutzen und ich werde Ihnen entweder die Download-Links zur Verfügung stellen oder die Daten direkt über Github bereitstellen. Den Link zum Repository erhalten Sie jeweils vor dem relevanten Kurstermin.</li>
+<li class="fragment">Das bedeutet, Sie können alle Übungen und Anwendungen mit Ihrem eigenen Gerät bearbeiten und wir müssen nicht auf die Computerräume der Universität oder bei uns im Innkubator zurückgreifen.</li>
+<li class="fragment">Bitte bringen Sie Ihren Computer mit einer laufenden Installation von R und R-Studio zu den Veranstaltungsterminen mit.</li>
+<li class="fragment">Idealerweise können Sie entweder zwei Monitore nutzen oder können mit einem (mobilen) Gerät am Zoommeeting teilnehmen, sodass Sie parallel an Ihrem Rechner arbeiten können.</li>
 </ul>
+</div>
 </section>
 <section id="was-ist-r-und-warum-r" class="slide level2">
 <h2>Was ist R und warum R?</h2>
 <p><br></p>
+<div>
 <ul>
-<li>R ist eine Programiersprache und Umgebung für <strong>statistische Berechnungen</strong>.</li>
-<li>Die Arbeit an R begann 1992, die erste Version erschien 1993 und die erste stabile Betaversion wurde im Jahr 2000 veröffentlicht.</li>
-<li>R wird unter der GNU GPL v2-Lizenz vertrieben, oder anders gesagt, es ist Open Source.</li>
-<li>Während R in den ersten Jahren vor allem ein kleines Projekt für den akademischen Bereich war, ist es inzwischen eine der weltweit am häufigsten verwendeten Sprachen für statistische Analysen.</li>
-<li>R ist inzwischen in eine Vielzahl professioneller Lösungen für die Datenanalyse und Big Data-Verarbeitung integriert.</li>
-<li>Posit <a href="https://posit.co/" class="uri">https://posit.co/</a> (früher R-Studio) bietet Enterprise-ready Lösungen für die Arbeit mit R (und Python) an.</li>
+<li class="fragment">R ist eine Programiersprache und Umgebung für statistische Berechnungen.</li>
+<li class="fragment">Die Arbeit an R begann 1992, die erste Version erschien 1993 und die erste stabile Betaversion wurde im Jahr 2000 veröffentlicht.</li>
+<li class="fragment">R wird unter der GNU GPL v2-Lizenz vertrieben, oder anders gesagt, es ist Open Source.</li>
+<li class="fragment">Während R in den ersten Jahren vor allem ein kleines Projekt für den akademischen Bereich war, ist es inzwischen eine der weltweit am häufigsten verwendeten Sprachen für statistische Analysen.</li>
+<li class="fragment">R ist inzwischen in eine Vielzahl professioneller Lösungen für die Datenanalyse und Big Data-Verarbeitung integriert.</li>
+<li class="fragment">Posit <a href="https://posit.co/" class="uri">https://posit.co/</a> (früher R-Studio) bietet Enterprise-ready Lösungen für die Arbeit mit R (und Python) an.</li>
 </ul>
+</div>
 </section>
 <section id="was-sind-r-pakete" class="slide level2">
 <h2>Was sind R-Pakete?</h2>
 <p><br></p>
+<div>
 <ul>
-<li>R besteht aus einer Basiskomponente, die durch sogenannte R-Pakete erweitert werden kann um bestimmte Aufgaben zu lösen.</li>
-<li>Das wichtigste Repository für R-Pakete, das Comprehensive R Archive Network (CRAN), listet zur Zeit 21.396 (september 2024) verfügbare Pakete auf (zuzüglich eine Unmenge von Paketen auf Github).</li>
-<li>Für alle (die meisten) verfügbaren Pakete ist eine umfangreiche Dokumentation verfügbar.</li>
-<li>Es gibt zahlreiche Tutorials (eine Googlesuche zum Thema ”Introduction to R” ergibt über 6 Mio. Treffer), freie und kommerzielle Lehrbücher und eine sehr aktive Community rund um R.</li>
-<li>Praktisch auf jede Frage, die man am Anfang hat, kann man mit einer einfachen Google- Suche die Antwort finden.</li>
-<li>Mit R-Studio steht eine sehr benutzerfreundliche und ebenfalls unter einer Open-Source Lizenz stehende IDE zur Verfügung.</li>
+<li class="fragment">R besteht aus einer Basiskomponente, die durch sogenannte R-Pakete erweitert werden kann um bestimmte Aufgaben zu lösen.</li>
+<li class="fragment">Das wichtigste Repository für R-Pakete, das Comprehensive R Archive Network (CRAN), listet zur Zeit 21.396 (September 2024) verfügbare Pakete auf (zuzüglich eine Unmenge von Paketen auf Github).</li>
+<li class="fragment">Für alle (die meisten) verfügbaren Pakete ist eine umfangreiche Dokumentation verfügbar.</li>
+<li class="fragment">Es gibt zahlreiche Tutorials (eine Google-Suche zum Thema ”Introduction to R” ergibt über 6 Mio. Treffer), freie und kommerzielle Lehrbücher und eine sehr aktive Community rund um R.</li>
+<li class="fragment">Praktisch auf jede Frage, die man am Anfang hat, kann man mit einer einfachen Google-Suche die Antwort finden.</li>
+<li class="fragment">Mit R-Studio steht eine sehr benutzerfreundliche und ebenfalls unter einer Open-Source Lizenz stehende IDE zur Verfügung.</li>
 </ul>
+</div>
 </section>
 <section id="liste-der-verwendeten-pakete" class="slide level2">
 <h2>Liste der verwendeten Pakete</h2>
@@ -534,17 +546,19 @@ Prof.&nbsp;Dr.&nbsp;Daniel Schnitzlein
 <span id="cb2-13"><a></a><span class="fu">install.packages</span>(<span class="st">"lubridate"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div></section>
-<section id="vorläufige-agenda" class="slide level2">
-<h2>(Vorläufige) Agenda</h2>
+<section id="vorläufige-themenliste" class="slide level2">
+<h2>(Vorläufige) Themenliste</h2>
 <p><br></p>
+<div>
 <ol type="1">
-<li><strong>Einführung in R und RStudio:</strong> Überblick über die Installations- und Einrichtungsprozesse | Grundlegende Funktionen und Bedienung von R und RStudio</li>
-<li><strong>Grundlagen der Statistiksprache R:</strong> Syntax und Datenstrukturen in R |Einführung in Funktionen und Pakete</li>
-<li><strong>Datenmanagement in R:</strong> Methoden der Datenorganisation und -vorbereitung | Importieren, Bereinigen und Transformieren von Datensätzen</li>
-<li><strong>Einführung in die Pakete des tidyverse:</strong> Überblick über die wichtigsten tidyverse-Pakete wie z.B. dplyr und ggplot2 | Anwendung dieser Pakete zur effizienten Datenanalyse und -visualisierung</li>
-<li><strong>Deskriptive Statistik in R:</strong> Berechnung und Interpretation grundlegender statistischer Kennzahlen | Anwendung von deskriptiven Methoden zur Datenexploration | Einführung in die statistische Modellierung am Beispiel linearer Modelle</li>
-<li><strong>Datenvisualisierung in R:</strong> Erstellen von publikationsreifen Grafiken und Diagrammen mit ggplot2 | Gestaltung und Interpretation von Datenvisualisierungen zur Unterstützung der Datenanalyse</li>
+<li class="fragment"><strong>Einführung in R und R-Studio:</strong> Überblick über die Installations- und Einrichtungsprozesse | Grundlegende Funktionen und Bedienung von R und R-Studio</li>
+<li class="fragment"><strong>Grundlagen der Statistiksprache R:</strong> Syntax und Datenstrukturen in R | Einführung in Funktionen und Pakete</li>
+<li class="fragment"><strong>Datenmanagement in R:</strong> Methoden der Datenorganisation und -vorbereitung | Importieren, Bereinigen und Transformieren von Datensätzen</li>
+<li class="fragment"><strong>Einführung in die Pakete des tidyverse:</strong> Überblick über die wichtigsten tidyverse-Pakete wie z.B. dplyr und ggplot2 | Anwendung dieser Pakete zur effizienten Datenanalyse und -visualisierung</li>
+<li class="fragment"><strong>Deskriptive Statistik in R:</strong> Berechnung und Interpretation grundlegender statistischer Kennzahlen | Anwendung von deskriptiven Methoden zur Datenexploration | Einführung in die statistische Modellierung am Beispiel linearer Modelle</li>
+<li class="fragment"><strong>Datenvisualisierung in R:</strong> Erstellen von publikationsreifen Grafiken und Diagrammen mit ggplot2 | Gestaltung und Interpretation von Datenvisualisierungen zur Unterstützung der Datenanalyse</li>
 </ol>
+</div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
@@ -552,11 +566,11 @@ Prof.&nbsp;Dr.&nbsp;Daniel Schnitzlein
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<p><strong>Welche Themen interessieren Sie noch?</strong></p>
+<p><strong>Welche weiteren Themen interessieren Sie?</strong></p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
-<p>Grundlagen der Datenanalyse und Statistik in R</p>
+<p>Grundlagen der Datenanalyse und Statistik mit R</p>
 </div>
 </div>
 </section>
