@@ -2,7 +2,7 @@
 title: "Vortreffen am 27.09.2024"
 subtitle: "Grundlagen der Datenanalyse und Statistik mit R | WS 2024/25"
 author: "Prof. Dr. Daniel Schnitzlein"
-footer: "Grundlagen der Datenanalyse und Statistik mit R"
+footer: "GitHub-Repo: <https://github.com/dschnitzlein/GDSR_0a_Vortreffen>"
 format: 
   revealjs:
     theme: [default, custom.scss]
